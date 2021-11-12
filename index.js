@@ -34,4 +34,3 @@ const graphic_stock_link365 = "https://kb.createit.com/s/bivc8ufjq7oqncgnk1i0/2.
     await downloader.downloader(page);
 })();
 
-
