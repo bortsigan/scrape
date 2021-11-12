@@ -31,7 +31,7 @@ const graphic_stock_link365 = "https://kb.createit.com/s/bivc8ufjq7oqncgnk1i0/2.
     await page.goto(mainPage);
 
     await login(page, email, password);
-    await navigationPromise;
+
     await page.goto(graphic_stock_createit, {waitUntil: 'load', timeout: 0 });
     await navigationPromise;
     // wait for the appearance of a specific element in the Page
